@@ -1,0 +1,19 @@
+[CROSS] Compare chronic migraine vs episodic migraine: definition + how often headaches occur (pull from multiple parts).
+[CROSS] List both medical treatments and non-medication options mentioned for chronic migraine (combine sections).
+[CROSS] What comorbid conditions are mentioned alongside chronic migraine, and what symptom overlaps are described?
+[CROSS] What lifestyle changes are recommended AND what triggers/risk factors are mentioned? (must pull from separate areas)
+
+[KEYWORD] What does the document say about “transcranial magnetic stimulation” for chronic migraine?
+[KEYWORD] Find mentions of “biofeedback” and explain what it’s used for in migraine management.
+[KEYWORD] What is said about “nerve stimulation” as a treatment? (use exact phrase match)
+
+[SEMANTIC] If someone has frequent headaches plus nausea and light sensitivity, what does the doc imply about migraine features? (meaning-based)
+[SEMANTIC] The doc describes a patient “journey living with chronic migraine”, summarize what that implies about day-to-day impact (contextual).
+[SEMANTIC] When the doc discusses long-term headache patterns, what does it suggest about when to seek medical help? (not just keyword lookup)
+
+[STRUCTURED] Extract any bullet/list-style items for triggers/risk factors (return as a clean list).
+[STRUCTURED] Extract the listed treatment options (medications + procedures + behavioral) exactly as written (structured content).
+[STRUCTURED] Are there any “Do/Don’t” style recommendations? If yes, list them.
+
+[IMAGE] The first page mentions “SCAN ME” and a QR code + video. What is the QR code/video intended to show, and where does it say to turn for her story?
+[IMAGE] Identify any figure/graphic callouts (e.g., “SCAN ME”, page references, captions). List what they point to.
