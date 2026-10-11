@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env*
+!.env.example
+
+# Course and third-party files (not redistributable)
+WebMD.pdf
+Syllabus.pdf
+HW4_Instructions.pdf
+HW4_Template.ipynb
+eval_questions.txt
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
+.DS_Store
